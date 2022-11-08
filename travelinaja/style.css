@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,100;1,200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Ubuntu&family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,200;0,400;1,100;1,200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Ubuntu&family=Viga&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    background-color: 	#F8F8FF;
+}
+
+/* =============NAVBAR MENU============ */
+.navbar {
+    background-color: white;
+    color: black;
+}
+
+.navbar-brand {
+    justify-content: space-around;
+    align-items: center;
+}
+
+li.nav-item a.nav-link {
+    color: black;
+}
+
+li a.nav-link:hover {
+    color: grey;
+}
+ul.navbar-nav li a.active {
+    color:grey;
+}
+
+.nav-link {
+    text-align: center;
+    justify-content: space-around;
+    /* font-weight: 700; */
+    font-size: 20px;
+}
+
+/* ============= SLOGAN ============ */
+/* .jumbotron {
+    margin-top: 1rem;
+} */
+
+h2.text {
+    position: absolute;
+    margin: 60px 20px 80px;
+    font-weight: 800;
+    font-size: 3em;
+    color: 	#F5FFFA;
+    font-family: "poppins";
+    text-shadow: 2px 2px 5px grey;
+    font-family: "dancing script", cursive;
+}
+
+.cover img{
+    display: block;
+    width: 100%;
+    height: 290px;
+}
+
+
+/* h3.lead {
+    position: absolute;
+    font-size: 2em;
+    color: darkviolet;
+    font-weight: 400;
+    font-family: "dancing script", cursive;
+} */
+
+/* ============= SECTION ============ */
+section {
+    padding-top: 5rem;
+}
+
+/* ============= ABOUT ============ */
+#about{
+    background-color: rgb(209, 208, 209);
+    color: white;
+    margin-top: 1rem;
+}
+
+.title {
+    font-size: 33px;
+    font-family: "montserrat";
+    text-align: center;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.row {
+    justify-content: center;
+    text-align: center;
+}
+
+.p {
+    padding: 5px;
+    font-family: "montserrat";
+    text-align: justify;
+    align-content: center;
+    color: black;
+}
+
+/* ============= PRODUCT ============ */
+.box {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.img {
+    width: 20%;
+    height: 20%;
+}
+.card {
+    margin-bottom: 12px;
+}
+.border {
+    width:100%;
+    height:auto;
+}
+
+.border img {
+    width: 100%;
+    height: 60%;
+}
+.card h5 {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+#promo {
+    background-color: darkviolet;
+    padding-top: 20px;
+    display: flex;
+}
+
+.promo {
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    padding: 3px;
+    margin: 2px;
+    font-size: 15px;
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+}
+/* ============= CONTACT ============ */
+#contact {
+    background-color: whitesmoke;
+}
+.col-cont {
+    text-align: left;
+    position: relative;
+    padding-bottom: 20px;
+    font-family: "montserrat";
+}
+
+.col-cont p {
+    font-size: 17px;
+}
+
+.h4,
+.p {
+    opacity: 1;
+}
+
+/* ============= FOOTER ============ */
+footer {
+    padding: 20px;
+    background-color: darkviolet;
+    justify-content: space-between;
+}
+
+footer p {
+    font-size: 20px;
+    font-family: "montserrat";
+    color: white;
+    text-align: center;
+}
+
+.media i{
+    font-size: 20px;
+}
+
+/* ============= SCROLL TOP BUTTON ============ */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.bi{
+    color: black;
+    font-size: 50px;
+}
+
+
+
+/* ============= MOBIL RESPONSIVE ============ */
+@media screen and (max-width: 576px) {
+    h2.text {
+        font-size: 2em;
+    }
+    h3.lead {
+        font-size: 2em;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+    .p {
+        padding: 7px;
+    }
+    .img {
+        width: 100%;
+        height: 300px;
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        margin: 1px;
+    }
+    .card h5 {
+        font-size: 17px;
+        text-align: left;
+    }
+    .img {
+        width: 240px;
+        height: auto;
+    }
+    #myBtn {
+        width: 50px;
+        height: auto;
+        display: none;
+    }
+    .img{
+        width: 100%;
+        height: 80px;
+    }
+    .judul {
+        font-size: 14px;
+        font-weight: 450;
+        font-family: 'poppins';
+    }
+    .promo {
+        position: absolute;
+        right: 3px;
+        top: 5px;
+        padding: 3px;
+        margin: 2px;
+        background-color: red;
+        border-radius: 3px;
+        color: white;
+        font-size: 10px;
+    }
+}
